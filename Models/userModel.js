@@ -31,18 +31,11 @@ User.getUserByID = (id, result)=>{
     })
 }
 
-// createNewUser MySQL query to creating a new user.// 
-/*User.createUser = (user, result) =>{
-    dbconnect.query('INSERT INTO users SET ? ', user, (err, res)=>{
-        if(err){
-            console.log("Error inserting data");
-            result(null, err);
-        }else{
-            console.log("User profile created successfully");
-            result(null, res)
-        }
-    })
-}*/
+////////////////////////////////////////////////////////////////////////////
+
+
+
+
 
 module.exports = User;
 
